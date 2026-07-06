@@ -98,11 +98,6 @@
     color:var(--ink);
     overflow:hidden;
   }
-  .hero.has-hero-img{
-    background-image:linear-gradient(180deg, rgba(234,244,251,.82) 0%, rgba(247,251,253,.92) 65%), url('images/hero.jpg');
-    background-size:cover;
-    background-position:center;
-  }
   .blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;pointer-events:none;}
   .blob-1{width:420px;height:420px;background:#bfe0f5;top:-120px;right:-100px;}
   .blob-2{width:360px;height:360px;background:#dcecfa;bottom:-140px;left:-80px;}
@@ -270,8 +265,6 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero" id="home" style="padding-top:0;">
-  <img src="images/hero.jpg" alt="" id="heroImg" style="display:none;"
-    onload="document.getElementById('home').classList.add('has-hero-img');">
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
   <div class="hero-inner">
